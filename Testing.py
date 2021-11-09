@@ -64,6 +64,7 @@ def get_drink_by_id_example(id):
 
 
 
+print("Make sure to run API.py before running this test")
 print("==== Start Testing ...")
 print("Example for purchasing, expected to return json of price as key and amount in float as value")
 print("Result: ")
