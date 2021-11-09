@@ -1,0 +1,24 @@
+We want you to implement a web server in Python that exposes an API for a menu in a specific restaurant
+Find an API to get the menu of ארקפה in Tel Aviv from the following website
+Create a server which implements the following API:
+(for all GET operations - name and description - string. price - integer)
+    GET /drinks - Returns the id, name, description and price of all drinks
+    GET /drink/<id> - Returns id, name, description and price of a drink
+    GET /pizzas - Returns the id, name, description and price of all pizzas
+    GET /pizza/<id> - Returns id, name, description and price of a pizza
+    GET /desserts - Returns the id, name, description and price of all desserts
+    GET /dessert/<id> - Returns id, name, description and price of a dessert
+    POST /order - receives an order and returns its total price.
+    Body - (drinks, desserts, or pizzas are optional). You can define the body structure by yourself, or use the suggested structure below -
+    {
+        "drinks": [id_5, id_6],
+        "desserts": [id_1, id_2],
+        "pizzas": [id_3, id_4]
+    }
+    Response - {"price": 123}.
+The data that the service provides should be updated daily
+Suggest a simple way to demonstrate the service functionality (CLI, unit tests, other)
+Upload to GitHub only the relevant files required to run the service
+
+
+Please Run API.py file to run the server, then go to Testing.py file to see examples of how you can use this API.
