@@ -3,6 +3,8 @@
 import requests
 import json
 
+import API
+
 HOST = "http://127.0.0.1"
 PORT = "5000"
 url = "{}:{}".format(HOST, PORT)
@@ -58,6 +60,11 @@ def get_drink_by_id_example(id):
     print(response.text)
 
 
+
+
+
+
+print("==== Start Testing ...")
 print("Example for purchasing, expected to return json of price as key and amount in float as value")
 print("Result: ")
 order_example()
@@ -75,4 +82,6 @@ print("Example for getting drink data of specific id, expected to return not fou
 print("Result: ")
 get_drink_by_id_example(205584)
 print("=========")
+
+
 
