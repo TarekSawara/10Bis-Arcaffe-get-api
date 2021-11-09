@@ -17,8 +17,6 @@ Create a server which implements the following API:
     }
     Response - {"price": 123}.
 The data that the service provides should be updated daily
-Suggest a simple way to demonstrate the service functionality (CLI, unit tests, other)
-Upload to GitHub only the relevant files required to run the service
 
 
 Please Run API.py file to run the server, then go to Testing.py file to see examples of how you can use this API.
